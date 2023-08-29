@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+	<meta name="description" content="Website Penyedia Materi Pembelajaran Pemograman Online Gratis">
+	<link rel="icon" type="image/png" href="./gambar/fav.ico">
+	<meta name="author" content="Muhammad Irsyad Fikri Azhar">
+	<title>Lewards - Dashboard</title>
+	<link rel="stylesheet" href="./css/theme.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body class="bg-black text-white mt-0" data-bs-spy="scroll" data-bs-target="#navScroll">
+
+	<nav id="navScroll" class="navbar navbar-dark bg-black fixed-top px-vw-5" tabindex="0">
+		<div class="container">
+			<a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24s" fill="currentColor" class="bi bi-credit-card-2-front-fill" viewBox="0 0 16 20">
+					<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z" />
+				</svg>
+				<span class="ms-md-1 mt-1 fw-bolder me-md-4">Lewards</span>
+			</a>
+
+			<!-- <ul class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal">
+				<li class="nav-item">
+					<a class="nav-link fs-5 fw-bolder" href="index.html" aria-label="Homepage">
+						Home
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link fs-5 text-muted" href="#" aria-label="Tentang Saya">
+						Tentang
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link fs-5 text-muted" href="#" aria-label="Keranjang">
+						Keranjang</a>
+				</li>
+			</ul> -->
+		</div>
+	</nav>
+
+	<main>
+		<div class="w-100 overflow-hidden position-relative bg-black text-white" data-aos="fade">
+			<div class="position-absolute w-100 h-100 bg-black opacity-75 top-0 start-0"></div>
+			<div class="container py-vh-4 position-relative mt-5 px-vw-5 text-center">
+				<div class="row d-flex align-items-center justify-content-center py-vh-5">
+					<div class="col-12 col-xl-10">
+						<br>
+						<h1 class="display-huge mt-3 mb-3 lh-1">Halo, Selamat Datang! </h1>
+					</div>
+					<div class="col-12 col-xl-10">
+						<p class="lead text-secondary">Lewards merupakan websete penyedia materi pemograman berbasis online yang dapat diakses secara gratis.</p>
+					</div>
+					<div class="col-12 text-center">
+						<br>
+						<a href="https://drive.google.com/file/d/1kjdSu3M684Ye8gH0lsTyUrjyYl2MbNDf/view?usp=share_link" target="_blank" class="btn btn-xl btn-light">Intro to Programming
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+								<path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--Kelas-->
+		<form class="form-submit"></form>
+		<div class="bg-black py-vh-3">
+			<div class="container bg-black px-vw-5 py-vh-3 rounded-5 shadow">
+
+				<div class="row gx-5">
+					<div class="col-12 col-md-6">
+						<!--Barang 1-->
+						<div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+							<div class="bg-dark shadow rounded-5 p-0">
+								<a href="content/content-html.html">
+									<img src="gambar/HTML - Uncover.png" width="582" height="327" alt="HTML Undercover" class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+								</a>
+								<div class="p-5">
+									<input type="hidden" class="id" value="">
+									<h2 class="fw">HTML</h2>
+									<p class="pb-4 text-secondary">HyperText Markup Language
+									</p>
+									<a href="content/content-html.html" class="btn btn-outline-light"> Belajar Sekarang <i class="bi bi-arrow-right-short"></i></a>
+								</div>
+							</div>
+						</div>
+						<!--Barang 2-->
+						<div class="card bg-transparent" data-aos="zoom-in-up">
+							<div class="bg-dark shadow rounded-5 p-0">
+								<a href="content/content-css.html">
+									<img src="gambar/CSS - Uncover.png" width="582" height="442" alt="CSS Undercover" class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+								</a>
+								<div class="p-5">
+									<h2 class="fw-lighter">CSS Undercover</h2>
+									<p class="pb-4 text-secondary">Cascading Style Sheet
+									</p>
+									<a href="content/content-css.html" class="btn btn-outline-light"> Belajar Sekarang <i class="bi bi-arrow-right-short"></i></a>
+								</div>
+							</div>
+						</div>
+						<br><br>
+						<!--Barang 3-->
+						<div class="card bg-transparent" data-aos="zoom-in-up">
+							<div class="bg-dark shadow rounded-5 p-0">
+								<a href="#">
+									<img src="gambar/Javascript - Uncover.png" width="582" height="442" alt="Javascript Undercover" class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+								</a>
+								<div class="p-5">
+									<h2 class="fw-lighter">JavaScript Undercover</h2>
+									<p class="pb-4 text-secondary">
+										Javascript
+									</p>
+									<a class="btn btn-outline-light"><!-- <i class="bi bi-cart-plus"></i>--> Soon</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--Barang 4-->
+					<div class="col-12 col-md-6">
+						<div class="p-5 pt-0 mt-5" data-aos="fade">
+							<span class="h5 text-secondary ">Buku Pemograman</span>
+							<h2 class="display-4">Beli sekarang diskon 30%.
+								<marquee>
+									<h6 style="color: orangered"> Promo ini hanya berlaku sampai 12 Maret 2023!</h6>
+								</marquee>
+							</h2>
+						</div>
+						<!--Barang 5-->
+						<div class="card bg-transparent mb-5 mt-5" data-aos="zoom-in-up">
+							<div class="bg-dark shadow rounded-5 p-0">
+								<img src="gambar/PHP-Uncover.png" width="582" height="390" alt="PHP Undercover" class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+								<div class="p-5">
+									<h2 class="fw-lighter">PHP Undercover</h2>
+									<p class="pb-4 text-secondary">-
+										Hypertext Preprocessor </p>
+									<a class="btn btn-outline-light"><!-- <i class="bi bi-cart-plus"></i>--> Soon</a>
+								</div>
+							</div>
+						</div>
+						<!--Barang 6-->
+						<div class="card bg-transparent" data-aos="zoom-in-up">
+							<div class="bg-dark shadow rounded-5 p-0">
+								<img src="gambar/Bootstrap - Uncover.png" width="582" height="327" alt="bootstrap Undercover" class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+								<div class="p-5">
+									<h2 class="fw-lighter">Bootstrap Undercover</h2>
+									<p class="pb-4 text-secondary">-
+										Bootstrap
+									</p>
+									<a class="btn btn-outline-light"><!-- <i class="bi bi-cart-plus"></i>--> Soon</a>
+								</div>
+							</div>
+						</div>
+						<br><br>
+
+						<!--<div class="card bg-transparent mb-5" data-aos="zoom-in-up">
+              <div class="bg-dark shadow rounded-5 p-0">
+                <img src="gambar/HTML.jpg" width="582" height="327" alt="abstract image"
+                  class="img-fluid rounded-5 no-bottom-radius" loading="lazy">
+                <div class="p-5">
+                  <h2 class="fw-lighter">HTML Undercover</h2>
+                  <p class="pb-4 text-secondary">IDR 160.000
+										<br> SKU: LW/HTML
+									</p>
+                  <a href="#" class="btn btn-outline-light"><i class="bi bi-cart-plus"></i> Keranjang</a>
+                </div>
+              </div>
+            </div>-->
+					</div>
+				</div>
+			</div>
+			</form>
+
+		</div>
+		<div class="bg-dark position-relative">
+			<div class="container px-vw-5 py-vh-5">
+				<div class="row d-flex align-items-center">
+
+					<div class="col-12 col-lg-7">
+						<img class="img-fluid rounded-5 mb-n5 shadow" src="gambar/cr-html.webp" width="512" height="512" alt="a nice person" loading="lazy" data-aos="zoom-in-right">
+						<img class="img-fluid rounded-5 ms-5 mb-n5 shadow" src="gambar/cs-wd.webp" width="512" height="512" alt="another nice person" loading="lazy" data-aos="zoom-in-up">
+					</div>
+					<div class="col-12 col-lg-5 bg-dark rounded-5 py-5" data-aos="fade">
+						<span class="h5 text-secondary fw-lighter">Video Pembelajaran</span>
+						<h2 class="display-4">Selain e-book, Lewards juga menyediakan video pembelajaran menarik lainnya, lho!</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="bg-black border-top border-dark">
+			<div class="container py-vh-4 text-secondary fw-lighter">
+				<div class="row">
+					<div class="col-12 col-lg-5 py-4 text-center text-lg-start">
+						<a class="navbar-brand pe-md-4 fs-4 col-12 col-md-auto text-center" href="index.html">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24s" fill="currentColor" class="bi bi-credit-card-2-front-fill" viewBox="0 0 16 20">
+								<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z" />
+							</svg>
+							<span class="ms-md-1 mt-1 fw-bolder me-md-5">Lewards</span>
+						</a>
+
+					</div>
+					<div class="col border-end border-dark">
+						<span class="h6">Konten</span>
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a href="content/content-html.html" class="link-fancy link-fancy-light">HTML</a>
+							</li>
+							<li class="nav-item">
+								<a href="content/content-css.html" class="link-fancy link-fancy-light">CSS</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">JavaScript</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">PHP</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">Bootstrap</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col border-end border-dark">
+						<span class="h6">Layanan</span>
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">Harga</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">Produk</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">Lainnya</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col">
+						<span class="h6">Dukungan</span>
+						<ul class="nav flex-column">
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">Tentang Lewards</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">Tim</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="link-fancy link-fancy-light">Kontak</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="container text-center small py-vh-2 border-top border-dark">Made by
+				<a href="https://azhar-portfolio.vercel.app/" class="link-fancy link-fancy-light" target="_blank">Azhar</a>
+				All Right Reserved © 2023</a>
+			</div>
+		</footer>
+
+
+
+
+
+
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/aos.js"></script>
+
+		<script>
+			AOS.init({
+				duration: 800, // values from 0 to 3000, with step 50ms
+			});
+		</script>
+		<script>
+			let scrollpos = window.scrollY;
+			const header = document.querySelector(".navbar");
+			const header_height = header.offsetHeight;
+
+			const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm");
+			const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm");
+
+			window.addEventListener('scroll', function() {
+				scrollpos = window.scrollY;
+
+				if (scrollpos >= header_height) {
+					add_class_on_scroll();
+				} else {
+					remove_class_on_scroll();
+				}
+
+				console.log(scrollpos);
+			})
+		</script>
+
+</body>
+
+</html>
